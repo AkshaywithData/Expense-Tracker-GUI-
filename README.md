@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is dextop-based Expense Tracker created using Python and Tkinter. 
+This project is desktop-based Expense Tracker created using Python and Tkinter. 
 It helps users record and manage daily income and expense transactions.
 
 ## Features
@@ -19,7 +19,7 @@ It helps users record and manage daily income and expense transactions.
 
 - Python
 - Tkinter
-- OpenPyXL
+- OpenpyxL
 - Datetime
 - OS
 - PyInstaller
@@ -54,6 +54,6 @@ Expense-Tracker/
 ## Author
 
 **Akshay Gawand**
-Aspiring Data engineer | Python |  Sql | Excel
+Aspiring Data engineer | Python |  SQL | Excel
 
 
