@@ -1,0 +1,7 @@
+for Project work required libraries are,
+
+- openpyxl
+
+Versions we are using,
+
+- openpyxl==3.1.5
