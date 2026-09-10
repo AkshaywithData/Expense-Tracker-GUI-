@@ -55,7 +55,7 @@ dist/Expense_Tracker.exe
 Expense-Tracker/
 │
 ├── .gitignore
-├── expense_Tracker.py
+├── expense_tracker.py
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
