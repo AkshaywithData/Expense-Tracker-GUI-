@@ -42,7 +42,7 @@ dist/Expense_Tracker.exe
     Build the executable:
 
     ```bash
-    pyinstaller --onefile --windowed expense_Tracker.py
+    pyinstaller --onefile --windowed expense_tracker.py
     ```
     The executable will be created inside:
 
