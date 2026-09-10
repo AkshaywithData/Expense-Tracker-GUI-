@@ -1,0 +1,4 @@
+Expenses-*.xlsx
+__pycache__/
+*.pyc
+

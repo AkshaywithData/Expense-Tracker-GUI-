@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is desktop-based Expense Tracker created using Python and Tkinter. 
+This project is a desktop-based Expense Tracker created using Python and Tkinter. 
 It helps users record and manage daily income and expense transactions.
 
 ## Features
@@ -19,7 +19,7 @@ It helps users record and manage daily income and expense transactions.
 
 - Python
 - Tkinter
-- OpenpyxL
+- OpenPyXL
 - Datetime
 - OS
 - PyInstaller
@@ -30,17 +30,37 @@ It helps users record and manage daily income and expense transactions.
 dist/Expense_Tracker.exe
 ```
 
+## Create Standalone Executable
+
+    PyInstaller is used to package the Python application into a standalone Windows executable.
+
+    Install PyInstaller:
+
+    ```bash
+    pip install pyinstaller
+    ```
+    Build the executable:
+
+    ```bash
+    pyinstaller --onefile --windowed expense_Tracker.py
+    ```
+    The executable will be created inside:
+
+    dist/
+      └── expense_Tracker.exe
+
 ## Project Structure
 
-```text
+```
 Expense-Tracker/
 │
+├── .gitignore
 ├── expense_Tracker.py
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 │
-├── Images/
+├── Screenshots/
 │   ├── application.png
 │   └── excel_output.png
 │
@@ -50,10 +70,26 @@ Expense-Tracker/
 └── Expenses-2026.xlsx
 ```
 
+## Output
+
+- The application stores transaction data in a new or existing workbook
+- The workbook contains monthly worksheets for organizing income and expense transactions 
+- Daily balances are maintained within the workbook.
+
+## Future Improvements
+
+- Add expense categories and filtering
+- Add monthly expense summaries
+- Add charts and visual reports
+- Add database integration
+- Add email/report automation
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Author
 
 **Akshay Gawand**
-Aspiring Data engineer | Python |  SQL | Excel
 
 
